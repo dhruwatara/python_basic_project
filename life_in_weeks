@@ -1,0 +1,8 @@
+age=int(input("what is your current age?\n"))
+life= 90-age
+
+days=365*life
+weeks=life*52
+month=life*12
+
+print(f"you have {days} days, {weeks} weeks, {month} months and {life} years left")
