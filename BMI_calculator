@@ -1,0 +1,12 @@
+#bmi=weight/height in meter**2
+
+height=float(input("what is your heigth in meter?\n"))
+weight=float(input("what is your weight in kg?\n"))
+
+bmi=weight/height**2
+bmi_str=str(bmi)
+print("your bmi is "+ bmi_str)
+
+#bmi1=round(bmi,3)
+#print(bmi1)
+#print(f"your bmi is "{bmi1})
